@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+Pro&display=swap');
+
+/*
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+:root {
+    --orange: #CD954D;
+    --white: #F7F4F2;
+    --grey: #414954;
+    --brown: #9F4A37;
+    --lightgrey: #9CB1B0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--white);
+}
