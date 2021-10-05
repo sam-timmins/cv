@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+Pro&display=swap');
 
-/*
-font-family: 'Source Sans Pro', sans-serif;
-*/
-
 
 :root {
     --orange: #CD954D;
@@ -31,7 +27,8 @@ body {
     background-color: var(--white);
 }
 
-/* logo */
+
+/* Header */
 
 .logo {
     background: url(../images/logo.jpg) no-repeat center;
@@ -40,4 +37,25 @@ body {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.heading {
+    margin-left: 5rem;
+}
+
+.bg-colour-name-title {
+    background-color: var(--grey);
+}
+
+.name {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 6rem;
+    margin-top: 5rem;
+    color: var(--white);
+}
+
+.title {
+    font-size: 4rem;
+    margin: 2rem auto 6rem auto;
+    color: var(--white);
 }
