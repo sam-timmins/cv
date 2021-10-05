@@ -242,3 +242,32 @@ margin: 0;
     position: relative;
     width: 60%;
 }
+
+.resume-icon {
+    font-size: 3rem;
+    color: var(--lightgrey);
+}
+
+
+/* Skills */
+
+.progress {
+    position: relative;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 3px 3rem 2px 1rem;
+    color: var(--white);
+    background-color: rgba(25,25,25,0.2);
+    height: 100%;
+}
+
+.progress-section {
+    margin: 3rem auto;
+}
