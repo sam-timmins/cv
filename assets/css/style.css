@@ -189,3 +189,16 @@ footer h5 {
 }
 
 /* About me */
+
+.three-reasons-icon {
+    font-size: 3rem;
+    color: var(--orange);
+}
+
+.three-reasons-icon-container{
+    padding: 0;
+}
+
+.three-reasons-heading {
+    margin-bottom: 2rem;
+}
