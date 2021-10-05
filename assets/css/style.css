@@ -28,13 +28,27 @@ body {
     background-color: var(--white);
 }
 
+/* General */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    color: var(--white);
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 
 /* Header */
 
 .logo {
     background: url(../images/logo.jpg) no-repeat center;
     background-size: cover;
-    height: 37rem;
+    min-height: 37rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -81,6 +95,10 @@ body {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 2rem;
     padding: 0;
@@ -110,4 +128,50 @@ body {
     font-size: 2rem;
     padding-top: 1.5rem;
     width: 100%;
+}
+
+.hvr-sweep-to-bottom:before {
+    height: 12rem;
+    background-color: rgba(0,0,0,0.2);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--grey);
+    min-height: 12rem;
+    color: var(--white);
+    padding: 4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer h5 {
+    font-size: 2rem;
+}
+
+.cv-pdf i:hover,
+.social-links  li a i:hover {
+    color: var(--orange);
+    background-color: var(--white);
+}
+
+.social-links  li a i,
+.cv-pdf i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--grey);
+    background-color: var(--orange);
+    transition: .3s ease-in-out;
+}
+
+.social-links a {
+    text-decoration: none;
 }
