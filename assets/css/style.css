@@ -42,6 +42,21 @@ body {
     display: inline-block;
 }
 
+.section-heading {
+    margin: 4rem 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3rem;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 3rem 3rem;
+    float: none;
+}
 
 /* Header */
 
@@ -142,9 +157,6 @@ footer {
     min-height: 12rem;
     color: var(--white);
     padding: 4rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
 }
 
 footer h5 {
@@ -175,3 +187,5 @@ footer h5 {
 .social-links a {
     text-decoration: none;
 }
+
+/* About me */
