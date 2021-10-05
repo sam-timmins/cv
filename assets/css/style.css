@@ -8,6 +8,7 @@
     --brown: #9F4A37;
     --lightgrey: #9CB1B0;
     --green: #5a945f;
+    --about-colour: #bbc9dd;
 }
 
 html {
@@ -201,4 +202,43 @@ footer h5 {
 
 .three-reasons-heading {
     margin-bottom: 2rem;
+}
+
+.bg-colour-personal-info {
+    background-color: rgba(65, 73, 84, 0.1);
+}
+
+/* Personal info */
+
+.personal-info-item {
+    margin-bottom: 1rem;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 1rem;
+    display: inline-block;
+}
+
+.personal-info-item p,
+.personal-info-item p {
+margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 2rem;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
