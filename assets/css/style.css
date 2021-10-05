@@ -43,6 +43,7 @@ body {
     display: inline-block;
 }
 
+.history-heading,
 .section-heading {
     margin: 4rem 3rem;
     font-family: 'Source Sans Pro', sans-serif;
@@ -204,8 +205,8 @@ footer h5 {
     margin-bottom: 2rem;
 }
 
-.bg-colour-personal-info {
-    background-color: rgba(65, 73, 84, 0.1);
+.bg-color-personal-info {
+    background-color: var(--orange);
 }
 
 /* Personal info */
@@ -270,4 +271,58 @@ margin: 0;
 
 .progress-section {
     margin: 3rem auto;
+}
+
+.bg-color-work-history {
+    background-color: var(--lightgrey);
+}
+
+
+/* Work history */
+
+.history-heading {
+   margin-bottom: 5rem; 
+}
+
+.timeline-item {
+    padding: 4rem 2rem 0 2rem;
+    position: relative;
+    color: var(--white);
+    border-left: 1px solid var(--white);
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item h2 {
+    margin-top: 1rem;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+    display: block;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    top: 3rem;
+    position: absolute;
+    left: -0.66rem;
+    border-radius: 50%;
+    content: '';
+    background-color: var(--white);
+}
+
+.history-items {
+    margin-bottom: 3rem;
 }
