@@ -34,7 +34,7 @@ body {
 .logo {
     background: url(../images/logo.jpg) no-repeat center;
     background-size: cover;
-    min-height: 36rem;
+    height: 37rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -85,6 +85,7 @@ body {
     font-size: 2rem;
     padding: 0;
     text-align: center;  
+    height: 12rem;
 }
 
 .list-inline-item:not(:last-child) {
@@ -92,6 +93,21 @@ body {
 }
 
 #nav li a {
+    width: 100%;
     text-decoration: none;
     color: var(--white);
+}
+
+#nav i {
+    display: block;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+}
+
+#nav span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    width: 100%;
 }
