@@ -7,6 +7,7 @@
     --grey: #414954;
     --brown: #9F4A37;
     --lightgrey: #9CB1B0;
+    --green: #5a945f;
 }
 
 html {
@@ -57,5 +58,40 @@ body {
 .title {
     font-size: 4rem;
     margin: 2rem auto 6rem auto;
+    color: var(--white);
+}
+
+.menu-colour-home {
+    background-color: var(--orange);
+}
+
+.menu-colour-resume {
+    background-color: var(--lightgrey);
+}
+
+.menu-colour-contact {
+    background-color: var(--brown);
+}
+
+.menu-colour-download {
+    background-color: var(--green);
+}
+
+.menu-container {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 2rem;
+    padding: 0;
+    text-align: center;  
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+#nav li a {
+    text-decoration: none;
     color: var(--white);
 }
