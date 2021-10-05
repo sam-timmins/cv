@@ -348,6 +348,10 @@ margin: 0;
     margin: 3rem auto;
 }
 
+.contact-sub-heading {
+    font-size: 2rem;
+}
+
 .center-form {
     padding-top: 1rem;
     margin: 0 auto;
