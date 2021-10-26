@@ -7,7 +7,9 @@
     --grey: #414954;
     --brown: #9F4A37;
     --lightgrey: #9CB1B0;
+    --darkgrey: #202020;
     --green: #5a945f;
+    --purple: #8a328a;
     --about-colour: #bbc9dd;
 }
 
@@ -106,6 +108,14 @@ body {
 
 .menu-colour-download {
     background-color: var(--green);
+}
+
+.menu-colour-github {
+    background-color: var(--darkgrey);
+}
+
+.menu-colour-interests {
+    background-color: var(--purple);
 }
 
 .menu-container {
