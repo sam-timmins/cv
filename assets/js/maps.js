@@ -5,7 +5,11 @@ function initMap() {
             lat: 53.989515,
             lng: -7.363234,
         },
-        mapTypeId: 'satellite'
+        mapTypeId: 'satellite',
+        disableDefaultUI: true,
+        scaleControl: true,
+        fullscreenControl: true,
+        gestureHandling: "greedy",
     });
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
